@@ -1,0 +1,11 @@
+{
+  "request": {
+    "privateChallengeParameters": {
+      "answer": "123456"
+    },
+    "challengeAnswer": "123456"
+  },
+  "response": {
+    "answerCorrect": false
+  }
+}

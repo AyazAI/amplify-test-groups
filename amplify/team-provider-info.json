@@ -1,0 +1,54 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ezzyapp-dev-150319-authRole",
+      "UnauthRoleArn": "arn:aws:iam::751358124046:role/amplify-ezzyapp-dev-150319-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::751358124046:role/amplify-ezzyapp-dev-150319-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+      "UnauthRoleName": "amplify-ezzyapp-dev-150319-unauthRole",
+      "StackName": "amplify-ezzyapp-dev-150319",
+      "StackId": "arn:aws:cloudformation:us-east-1:751358124046:stack/amplify-ezzyapp-dev-150319/af83bcc0-80be-11eb-abf8-0a2fadfa68a5",
+      "AmplifyAppId": "d2k5gepurcwdnd"
+    },
+    "categories": {
+      "auth": {
+        "ezzyappotpauth": {}
+      },
+      "function": {
+        "inviteSp": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/inviteSp-46342f5832586f616647-build.zip"
+        },
+        "userToDB": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/userToDB-2f774e43316a396a3778-build.zip"
+        },
+        "ezzyappotpauthCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/ezzyappotpauthCreateAuthChallenge-49425974644c33567277-build.zip"
+        },
+        "ezzyappotpauthDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/ezzyappotpauthDefineAuthChallenge-727a7131556847533664-build.zip"
+        },
+        "ezzyappotpauthPreSignup": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/ezzyappotpauthPreSignup-6865514e5853416b4c5a-build.zip"
+        },
+        "ezzyappotpauthVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/ezzyappotpauthVerifyAuthChallengeResponse-61675450676951737652-build.zip"
+        },
+        "payment": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/payment-36504477573664426870-build.zip"
+        },
+        "notification": {
+          "deploymentBucketName": "amplify-ezzyapp-dev-150319-deployment",
+          "s3Key": "amplify-builds/notification-64434633572f55504774-build.zip"
+        }
+      }
+    }
+  }
+}
